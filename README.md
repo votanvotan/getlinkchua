@@ -15,12 +15,13 @@ Install from NPM: `npm install getlinkchua`
 "use strict"
 const getlinkchua = require('getlinkchua');
 
-async function sync() {
-    var url = 'http://phimbathu.com/xem-phim/hanh-vi-pham-toi-criminal-minds-2017-tap-2-7667_e76633.html';
-    var arrLink = await getlinkchua.getlinkphimbathu(url);
+async function synccode() {
+    let url = 'http://phimbathu.com/xem-phim/hanh-vi-pham-toi-criminal-minds-2017-tap-2-7667_e76633.html';
+    let arrLink = await getlinkchua.getlinkphimbathu(url);
     console.log(arrLink)
 }
-sync();
+synccode();
+// kết quả
 //[ 'https://openload.co/embed/DzjQsHK47fU',
 //  'https://streamango.com/embed/qdtrfmpanofablnn',
 //  'https://drive.google.com/file/d/0BxOgwGj4jhCuR3hpaGQzcGk3eWs/preview',

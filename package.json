@@ -1,0 +1,25 @@
+{
+  "author": "nguyenquanit17",
+  "name": "getlinkchua",
+  "description": "Get link các trang web miễn phí",
+  "version": "0.0.2",
+  "repository": {
+    "url": ""
+  },
+  "main": "./lib/getlink",
+  "keywords": [
+    "get link",
+    "get link free",
+    "get link miễn phí",
+    "get link chùa",
+    "get link phimbathu"
+  ],
+  "dependencies": {
+    "request": "^2.81.0",
+    "crypto-js": "^3.1.9-1"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "license": "MIT"
+}
